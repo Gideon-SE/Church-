@@ -1,0 +1,79 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: url("https://images.unsplash.com/photo-1507692049790-de58290a4334") no-repeat center/cover;
+}
+
+/* Header */
+header {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 80px;
+}
+
+/* Navigation */
+nav {
+    background: #004080;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* Sections */
+section {
+    background: rgba(255, 255, 255, 0.95);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Cards */
+.card {
+    display: inline-block;
+    background: #e6f2ff;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* Inputs */
+input {
+    padding: 10px;
+    margin: 5px;
+}
+
+/* Button */
+button {
+    padding: 10px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkgreen;
+}
+
+/* Footer */
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
