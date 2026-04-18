@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Philadelphia Altar Church</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img src="logo.png" alt="Church Logo" class="logo">
+        <h1>Philadelphia Altar Church</h1>
+        <p>"Victory Belongs to Jesus"</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#location">Location</a>
+        <a href="#offerings">Offerings</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Theme Verse</h2>
+        <p>Malachi 4:5</p>
+    </section>
+
+    <section id="leadership">
+        <h2>Leadership</h2>
+        <div class="card">Overseer</div>
+        <div class="card">Pastor</div>
+        <div class="card">Translator</div>
+    </section>
+
+    <section id="location">
+        <h2>Location</h2>
+        <p>Cheplanget</p>
+    </section>
+
+    <section id="offerings">
+        <h2>Today's Collection</h2>
+
+        <input type="text" id="type" placeholder="Type (Tithe, Offering...)">
+        <input type="number" id="amount" placeholder="Amount">
+        <button onclick="addOffering()">Add</button>
+
+        <ul id="list"></ul>
+        <h3 id="total"></h3>
+    </section>
+
+    <section id="contact">
+        <h2>Pastor Contact</h2>
+        <p>📞 0795754839</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Philadelphia Altar Church</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
